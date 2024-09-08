@@ -1,7 +1,8 @@
 
 # JWT Authentication
 
-Code Based 
+## Additional Note
+ - The code can be found in the **master branch**.
 
 ## Overview
 This project uses **JWT (JSON Web Token)** for securing API endpoints. JWT is a compact and self-contained way of transmitting information between two parties (client and server) as a JSON object. It allows stateless, secure authentication, removing the need to store session data on the server.
@@ -36,5 +37,4 @@ The payload contains claims. Claims are statements about an entity (typically, t
 - `sub` (subject, i.e., user)
 - `exp` (expiration time)
 
-## Additional note
- - The code can be found in the **master branch**.
+
