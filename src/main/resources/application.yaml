@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: rentRead-App
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1/rent
+    username: root
+    password: Shomik
+#    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  data:
+     jpa:
+       repositories:
+         enabled: true
+#  security:
+#   user:
+#     name: shomik
+#     password: shomik
+
